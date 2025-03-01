@@ -1,10 +1,14 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Section = styled.section`
   background-color: #6e9485;
   color: #ffffff;
-  padding: 100px 40px 40px 40px;
+  padding: 100px 0px 40px 40px;
   position: relative;
+
+  @media (max-width: 768px) {
+    padding: 80px 20px 40px 20px;
+  }
 `;
 
 export const Container = styled.div`
@@ -17,7 +21,7 @@ export const Title = styled.h1`
   background-color: #0d4f83;
   color: #ffffff;
   font-size: 32px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
   padding: 8px 30px;
@@ -25,6 +29,10 @@ export const Title = styled.h1`
   position: absolute;
   left: 0;
   top: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 26px;
+  }
 `;
 
 export const Text = styled.p`

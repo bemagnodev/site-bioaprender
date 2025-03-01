@@ -1,6 +1,5 @@
-import React from 'react';
-import { Section, Title, Text, Container } from './style';
-import entranceImage from '../../assets/ambiente.png';
+import React from "react";
+import { Section, Title, Text, Container } from "./style";
 
 function Section3() {
   return (

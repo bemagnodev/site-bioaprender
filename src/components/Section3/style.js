@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Section = styled.section`
   background-color: #fff;
@@ -14,7 +14,7 @@ export const Section = styled.section`
 `;
 
 export const Container = styled.div`
-  background-color: rgb(91, 141, 121);
+  background-color: #6e9485;
   border-radius: 8px;
   width: 70%;
   display: flex;
@@ -37,7 +37,7 @@ export const Title = styled.h1`
   background-color: #0d4f83;
   color: #ffffff;
   font-size: 32px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
   padding: 8px 30px;
@@ -45,6 +45,10 @@ export const Title = styled.h1`
   position: absolute;
   left: 0;
   top: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 26px;
+  }
 `;
 
 export const Text = styled.p`

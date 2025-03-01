@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  background-color: #ffffff;
-  color: #6e9485;
-  padding: 100px 80px 40px 80px;
+  background-color: #0d4f83;
+  padding: 10px 80px 40px 80px;
 
   @media (max-width: 768px) {
-    padding: 40px 20px 40px 20px;
+    padding: 10px 40px 40px 40px;
   }
 `;
 
@@ -17,17 +16,14 @@ export const TextContainer = styled.div`
   width: 100%;
 `;
 
-export const ReverseTextContainer = styled.div`
+export const ImageContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  align-items: flex-end;
-  text-align: end;
 
   @media (max-width: 1024px) {
-    align-items: flex-start;
-    text-align: start;
+    flex-direction: row;
   }
 `;
 
@@ -36,38 +32,59 @@ export const Container = styled.div`
   flex-direction: row;
   align-items: center;
   width: 100%;
-  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-top: 100px;
+  position: relative;
 
-  @media (max-width: 1024px) {
-    flex-direction: column;
+  .image-1 {
+    margin-top: -60px;
   }
-`;
 
-export const ContainerReverse = styled.div`
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 20px;
+  .image-2 {
+    margin-bottom: -40px;
+  }
 
   @media (max-width: 1024px) {
     flex-direction: column;
+
+    .image-1 {
+      margin-top: 0;
+    }
+
+    .image-2 {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px;
   }
 `;
 
 export const Title = styled.h1`
-  color: #6e9485;
+  background-color: #e49066;
+  color: #ffffff;
   font-size: 32px;
   font-family: "Nunito", sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
-  margin-bottom: 10px;
+  padding: 8px 30px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: -80px;
+  top: -90px;
+
+  @media (max-width: 768px) {
+    font-size: 26px;
+    left: -40px;
+  }
 `;
 
 export const Text = styled.p`
-  color: #6e9485;
+  color: #fff;
   font-size: 22px;
   line-height: 28px;
+  margin-bottom: 10px;
   width: 90%;
 
   @media (max-width: 768px) {
@@ -77,12 +94,17 @@ export const Text = styled.p`
 `;
 
 export const Image = styled.img`
-  width: 25%;
+  width: 45%;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
 
   @media (max-width: 1024px) {
+    width: 45%;
+    margin: 40px 0;
+  }
+
+  @media (max-width: 768px) {
     width: 250px;
     margin: 40px 0;
   }
