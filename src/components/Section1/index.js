@@ -1,10 +1,10 @@
-import React from 'react';
-import { Section, Title, Text, Image, Container } from './style';
-import entranceImage from '../../assets/ambiente.png';
+import React from "react";
+import { Section, Title, Text, Image, Container } from "./style";
+import entranceImage from "../../assets/ambiente.png";
 
 function Section1() {
   return (
-    <Section>
+    <Section id="quem-somos">
       <Title>Quem somos</Title>
       <Container>
         <Text>

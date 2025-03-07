@@ -13,7 +13,7 @@ import capoeira from "../../assets/extra-capoeira.png";
 
 function Section5() {
   return (
-    <Section>
+    <Section id="atividades-extras">
       <Container>
         <Title>Atividades Extras</Title>
         <TextContainer>

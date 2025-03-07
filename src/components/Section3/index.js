@@ -3,7 +3,7 @@ import { Section, Title, Text, Container } from "./style";
 
 function Section3() {
   return (
-    <Section>
+    <Section id="proposta-pedagogica">
       <Title>Proposta Pedagógica</Title>
       <Container>
         <Text>

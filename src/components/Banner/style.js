@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-import { Swiper } from 'swiper/react';
+import styled from "styled-components";
+import { Swiper } from "swiper/react";
 
 export const StyledSwiper = styled(Swiper)`
   width: 100%;
-  height: 35vh;
+  height: 45vh;
 
   .swiper-button-next,
   .swiper-button-prev {
@@ -12,6 +12,9 @@ export const StyledSwiper = styled(Swiper)`
 
   .swiper-slide {
     line-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   img {
@@ -19,22 +22,25 @@ export const StyledSwiper = styled(Swiper)`
     height: 100%;
     object-fit: cover;
     object-position: center;
-    display: block;
   }
 
   @media (max-width: 768px) {
-    height: 30vh;
-    object-position: left;
-    height: max-content !important;
+    height: 110px;
+
+    img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+      object-position: left;
+      overflow: hidden;
+    }
   }
 
   .banner-img {
     @media (min-width: 768px) {
-      height: 90px;
       width: 100%;
-      height: 115px;
+      height: 100%;
       object-fit: cover;
-      object-position: left center;
       object-position: center;
     }
   }

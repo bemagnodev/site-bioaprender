@@ -1,13 +1,13 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { StyledSwiper } from './style';
-import { Autoplay, Navigation } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/autoplay';
+import { SwiperSlide } from "swiper/react";
+import { StyledSwiper } from "./style";
+import { Autoplay, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/autoplay";
 
-import banner1 from '../../assets/banner1.jpg';
-import banner2 from '../../assets/banner2.jpg';
-import banner3 from '../../assets/banner3.jpg';
+import banner1 from "../../assets/banner1.jpg";
+import banner2 from "../../assets/banner2.jpg";
+import banner3 from "../../assets/banner3.jpg";
 
 const Banner = () => {
   return (
@@ -18,6 +18,7 @@ const Banner = () => {
       navigation={{ clickable: true }}
       autoplay={{ delay: 3000, disableOnInteraction: false }}
       loop={true}
+      id="home"
     >
       <SwiperSlide>
         <img src={banner1} alt="Banner 1" className="banner-img" />

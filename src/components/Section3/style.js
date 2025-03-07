@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  background-color: #fff;
+  background-color: #fffdf0;
   color: #6e9485;
   padding: 70px 40px 40px 40px;
   position: relative;

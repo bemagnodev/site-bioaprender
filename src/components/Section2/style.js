@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Section = styled.section`
-  background-color: #ffffff;
+  background-color: #fffdf0;
   color: #6e9485;
   padding: 100px 80px 40px 80px;
 
@@ -58,7 +58,7 @@ export const ContainerReverse = styled.div`
 export const Title = styled.h1`
   color: #6e9485;
   font-size: 32px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
   margin-bottom: 10px;

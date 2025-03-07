@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.section`
   background-color: #6e9485;
   color: #ffffff;
-  padding: 100px 0px 40px 40px;
+  padding: 100px 80px 40px 80px;
   position: relative;
 
   @media (max-width: 768px) {

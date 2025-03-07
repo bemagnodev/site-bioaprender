@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Section,
   Title,
@@ -16,18 +16,18 @@ import {
   BigImage,
   BigImageFirst,
   SmallImage,
-} from './style';
-import pais1 from '../../assets/projescoladepais1.png';
-import pais2 from '../../assets/projescoladepais2.png';
-import cozinha from '../../assets/projcriancacozinha.png';
+} from "./style";
+import pais1 from "../../assets/projescoladepais1.png";
+import pais2 from "../../assets/projescoladepais2.png";
+import cozinha from "../../assets/projcriancacozinha.png";
 
-import adaptacao1 from '../../assets/adaptação1.png';
-import adaptacao2 from '../../assets/adaptação2.png';
-import adaptacao3 from '../../assets/adaptação3.png';
+import adaptacao1 from "../../assets/adaptação1.png";
+import adaptacao2 from "../../assets/adaptação2.png";
+import adaptacao3 from "../../assets/adaptação3.png";
 
 function Section7() {
   return (
-    <Section>
+    <Section id="projetos">
       <Title>Projetos</Title>
       <Container>
         <TextContainer>
