@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Section1 = styled.section`
   background-color: #e49066;
@@ -23,7 +23,7 @@ export const Section2 = styled.section`
 export const Title = styled.h1`
   color: #ffffff;
   font-size: 24px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   margin-bottom: 10px;
 `;
 
@@ -34,7 +34,7 @@ export const Text = styled.p`
 
   @media (max-width: 768px) {
     width: 100%;
-    font-size: 16px;
+    font-size: 14px;
   }
 `;
 
@@ -54,4 +54,9 @@ export const WhatsAppButton = styled.a`
   &:hover {
     color: #1ebc57;
   }
+`;
+
+export const Logo = styled.img`
+  height: auto;
+  width: 100px;
 `;

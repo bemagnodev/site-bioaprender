@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Section = styled.section`
   background-color: #ffffff;
@@ -58,7 +58,7 @@ export const ContainerReverse = styled.div`
 export const Title = styled.h1`
   color: #6e9485;
   font-size: 32px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
   margin-bottom: 10px;
@@ -85,5 +85,10 @@ export const Image = styled.img`
   @media (max-width: 1024px) {
     width: 250px;
     margin: 40px 0;
+  }
+
+  @media (max-width: 1024px) {
+    width: 280px;
+    margin: 20px 0;
   }
 `;

@@ -1,6 +1,7 @@
-import React from "react";
-import { Section1, Section2, Title, Text, WhatsAppButton } from "./style";
-import { FaWhatsapp } from "react-icons/fa";
+import React from 'react';
+import { Section1, Section2, Title, Text, WhatsAppButton, Logo } from './style';
+import { FaWhatsapp } from 'react-icons/fa';
+import logo from '../../assets/biobranco.png';
 
 function Footer() {
   return (
@@ -12,7 +13,7 @@ function Footer() {
         </WhatsAppButton>
       </Section1>
       <Section2>
-        <Title>LOGO</Title>
+        <Logo src={logo} />
         <Text>
           <strong>Endereço:</strong> Rua Judith Martins da Silva, 58 -
           Tamandatuba - Eusébio - CE <br />
@@ -20,7 +21,7 @@ function Footer() {
           <strong>WhatsApp:</strong> (85) 98768-5299 <br />
           <strong>Email:</strong> bioaprender@outlook.com <br />
           <strong>Instagram:</strong> @bio_aprender <br />
-          <span style={{ fontSize: "10px", marginTop: "20px" }}>
+          <span style={{ fontSize: '10px', marginTop: '20px' }}>
             © 2025 Bioaprender. Todos os direitos reservados.
           </span>
         </Text>

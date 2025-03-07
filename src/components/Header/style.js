@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Navbar = styled.nav`
   display: flex;
@@ -27,7 +27,7 @@ export const MenuLinks = styled.ul`
   gap: 20px;
 
   @media (max-width: 768px) {
-    display: ${(props) => (props.open ? "flex" : "none")};
+    display: ${(props) => (props.open ? 'flex' : 'none')};
     flex-direction: column;
     position: absolute;
     top: 60px;
@@ -40,4 +40,9 @@ export const MenuLinks = styled.ul`
 
 export const MenuItem = styled.li`
   cursor: pointer;
+`;
+
+export const Logo = styled.img`
+  height: auto;
+  width: 90px;
 `;

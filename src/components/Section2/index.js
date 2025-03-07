@@ -10,8 +10,8 @@ import {
   ReverseTextContainer,
 } from './style';
 import missionImage from '../../assets/missao.png';
-import visionImage from '../../assets/missao.png'; //TROCAR
-import valueImage from '../../assets/missao.png'; //TROCAR
+import visionImage from '../../assets/visao.png';
+import valueImage from '../../assets/valores.png';
 
 function Section2() {
   return (

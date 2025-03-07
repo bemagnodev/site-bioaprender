@@ -1,10 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Section = styled.section`
   background-color: #fffdf0;
-  padding: 10px 80px 40px 80px;
+  padding: 50px 80px 100px 80px;
+  position: relative;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     padding: 10px 40px 40px 40px;
   }
 `;
@@ -14,7 +15,7 @@ export const TextContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  margin-top: 30px;
+  margin-bottom: 40px;
 
   @media (max-width: 1024px) {
     margin-top: 50px;
@@ -39,21 +40,20 @@ export const Container = styled.div`
   width: 100%;
   border-radius: 10px;
   margin-top: 50px;
-  position: relative;
 
   .image-1 {
-    margin-top: -60px;
+    margin-top: -90px;
   }
 
   .image-2 {
-    margin-bottom: -40px;
+    margin-bottom: -90px;
   }
 
   @media (max-width: 1024px) {
     flex-direction: column;
 
     .image-1 {
-      margin-top: 0;
+      margin-top: -20px;
     }
 
     .image-2 {
@@ -62,7 +62,6 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 20px;
   }
 `;
 
@@ -70,18 +69,18 @@ export const Title = styled.h1`
   background-color: #e49066;
   color: #ffffff;
   font-size: 32px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
   padding: 8px 30px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
   position: absolute;
-  left: -80px;
-  top: -30px;
+  left: 0px;
+  top: 20px;
 
   @media (max-width: 768px) {
     font-size: 26px;
-    left: -40px;
+    left: 0px;
   }
 `;
 
@@ -92,24 +91,26 @@ export const Text = styled.p`
   margin-bottom: 10px;
   width: 80%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     width: 100%;
+  }
+
+  @media (max-width: 768px) {
     font-size: 16px;
   }
 `;
 
 export const Image = styled.img`
-  width: 35%;
+  width: 45%;
   height: auto;
-  object-fit: cover;
 
   @media (max-width: 1024px) {
-    width: 45%;
-    margin: 40px 0;
+    width: 30%;
+    margin: 60px 0;
   }
 
   @media (max-width: 768px) {
-    width: 250px;
+    width: 50%;
     margin: 40px 0;
   }
 `;

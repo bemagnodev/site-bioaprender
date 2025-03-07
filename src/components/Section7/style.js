@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Section = styled.section`
   background-color: #fffdf0;
@@ -21,11 +21,19 @@ export const ImageContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
-  align-items: flex-end;
+  width: 40%;
+  align-items: flex-start;
+  margin: 40px 0 40px;
 
   @media (max-width: 1024px) {
     align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    justify-content: space-between;
+    margin: 0;
   }
 `;
 
@@ -50,13 +58,16 @@ export const Container = styled.div`
   padding: 20px 40px;
   border-radius: 10px;
   position: relative;
+  gap: 120px;
 
   @media (max-width: 1024px) {
     flex-direction: column;
+    gap: 30px;
   }
 
   @media (max-width: 768px) {
     padding: 20px;
+    gap: 0;
   }
 `;
 
@@ -69,6 +80,7 @@ export const Box = styled.div`
   padding: 60px 40px;
   border-radius: 10px;
   position: relative;
+  margin-top: 60px;
 
   @media (max-width: 1024px) {
     flex-direction: column;
@@ -83,7 +95,7 @@ export const BoxTitle = styled.h1`
   background-color: #0d4f83;
   color: #ffffff;
   font-size: 32px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
   padding: 8px 30px;
@@ -104,7 +116,7 @@ export const Title = styled.h1`
   background-color: #0d4f83;
   color: #ffffff;
   font-size: 32px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
   padding: 8px 30px;
@@ -123,7 +135,7 @@ export const Title = styled.h1`
 export const Subtitle = styled.h2`
   color: #6e9485;
   font-size: 32px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
   margin-bottom: 10px;
@@ -137,7 +149,7 @@ export const Text = styled.p`
   color: #6e9485;
   font-size: 22px;
   line-height: 28px;
-  width: 95%;
+  width: 100%;
   margin-bottom: 20px;
 
   @media (max-width: 768px) {
@@ -206,14 +218,12 @@ export const Image = styled.img`
   border-radius: 10px;
 
   @media (max-width: 1024px) {
-    width: 400px;
-    margin: 40px 0;
+    width: 45%;
+    margin: 0 0 -50px;
   }
 
   @media (max-width: 768px) {
-    width: 250px;
-    margin: 10px 0;
-    margin-left: -60px;
+    width: 50%;
   }
 `;
 
@@ -226,13 +236,13 @@ export const SideImage = styled.img`
   margin: 0 -60px;
 
   @media (max-width: 1024px) {
-    width: 400px;
-    margin: 40px 0;
+    width: 45%;
+    margin: -80px 0 0;
   }
 
   @media (max-width: 768px) {
-    width: 250px;
     margin-top: 0px;
-    margin-right: -60px;
+    margin: 0;
+    width: 50%;
   }
 `;

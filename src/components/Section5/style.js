@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Section = styled.section`
   background-color: #0d4f83;
@@ -25,6 +25,10 @@ export const ImageContainer = styled.div`
   @media (max-width: 1024px) {
     flex-direction: row;
   }
+
+  @media (max-width: 768px) {
+    margin-top: 40px;
+  }
 `;
 
 export const Container = styled.div`
@@ -48,7 +52,8 @@ export const Container = styled.div`
     flex-direction: column;
 
     .image-1 {
-      margin-top: 0;
+      margin-top: -20px;
+      margin-right: -20px;
     }
 
     .image-2 {
@@ -57,7 +62,6 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 20px;
   }
 `;
 
@@ -65,7 +69,7 @@ export const Title = styled.h1`
   background-color: #e49066;
   color: #ffffff;
   font-size: 32px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
   padding: 8px 30px;
@@ -94,18 +98,17 @@ export const Text = styled.p`
 `;
 
 export const Image = styled.img`
-  width: 45%;
+  width: 48%;
   height: auto;
-  object-fit: cover;
   border-radius: 10px;
 
   @media (max-width: 1024px) {
-    width: 45%;
+    width: 40%;
     margin: 40px 0;
   }
 
   @media (max-width: 768px) {
-    width: 250px;
-    margin: 40px 0;
+    width: 55%;
+    margin: 60px 0;
   }
 `;

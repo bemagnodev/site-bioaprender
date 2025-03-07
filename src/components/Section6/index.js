@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Section,
   Title,
@@ -7,15 +7,15 @@ import {
   Image,
   TextContainer,
   Container,
-} from "./style";
-import bale from "../../assets/ambiente3.png";
-import capoeira from "../../assets/ambiente2.png";
+} from './style';
+import bale from '../../assets/ambiente3.png';
+import capoeira from '../../assets/ambiente2.png';
 
 function Section6() {
   return (
     <Section>
+      <Title>Ambientes</Title>
       <Container>
-        <Title>Ambientes</Title>
         <TextContainer>
           <Text>
             Nossos espaços são planejados para estimular a criatividade e o

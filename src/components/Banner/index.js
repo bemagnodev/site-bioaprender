@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { StyledSwiper } from './style';
 import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -10,7 +11,7 @@ import banner3 from '../../assets/banner3.jpg';
 
 const Banner = () => {
   return (
-    <Swiper
+    <StyledSwiper
       modules={[Navigation, Autoplay]}
       spaceBetween={100}
       slidesPerView={1}
@@ -19,15 +20,15 @@ const Banner = () => {
       loop={true}
     >
       <SwiperSlide>
-        <img src={banner1} alt="Banner 1" />
+        <img src={banner1} alt="Banner 1" className="banner-img" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={banner2} alt="Banner 2" />
+        <img src={banner2} alt="Banner 2" className="banner-img" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={banner3} alt="Banner 3" />
+        <img src={banner3} alt="Banner 3" className="banner-img" />
       </SwiperSlide>
-    </Swiper>
+    </StyledSwiper>
   );
 };
 
