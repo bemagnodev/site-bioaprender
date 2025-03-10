@@ -34,7 +34,7 @@ function Section4() {
 
           <Subtitle>Infantil 3</Subtitle>
           <Text>
-            ADesenvolvimento da autonomia e do pensamento crítico emergente por
+            Desenvolvimento da autonomia e do pensamento crítico emergente por
             meio da experimentação, do jogo simbólico e das interações em grupo,
             estimulando a comunicação e a resolução de problemas.
           </Text>
