@@ -8,6 +8,7 @@ import {
   Container,
   InfantilImage,
   FundamentalImage,
+  Bold,
 } from './style';
 import infantil1a5 from '../../assets/infantil1a5.png';
 import fundamental from '../../assets/fundamental.png';
@@ -74,7 +75,7 @@ function Section4() {
           </Text>
           <Text>
             Nossa abordagem,
-            <strong> alinhada aos parâmetros curriculares atuais</strong>
+            <strong> alinhada aos parâmetros curriculares atuais </strong>
             garante uma base sólida para que os alunos ingressem no
             <strong> Fundamental 2</strong> com autonomia, pensamento crítico e
             habilidades essenciais para enfrentar novos desafios acadêmicos e

@@ -16,6 +16,10 @@ export const TextContainer = styled.div`
   width: 100%;
 `;
 
+export const Bold = styled.span`
+  font-weight: bold;
+`;
+
 export const Container = styled.div`
   display: flex;
   background-color: white;

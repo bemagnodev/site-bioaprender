@@ -8,7 +8,7 @@ function Footer() {
     <>
       <Section1>
         <Title>Agende uma Visita</Title>
-        <WhatsAppButton href="https://w.app/bioaprender" target="_blank">
+        <WhatsAppButton href="https://wa.me/5585987685299" target="_blank">
           <FaWhatsapp size={58} />
         </WhatsAppButton>
       </Section1>
@@ -20,7 +20,15 @@ function Footer() {
           <strong>Telefone Fixo:</strong> (85) 2010-1001 <br />
           <strong>WhatsApp:</strong> (85) 98768-5299 <br />
           <strong>Email:</strong> bioaprender@outlook.com <br />
-          <strong>Instagram:</strong> @bio_aprender <br />
+          <strong>Instagram:</strong>{' '}
+          <a
+            href="https://www.instagram.com/bio_aprender"
+            target="_blank"
+            style={{ color: '#ffffff' }}
+          >
+            @bio_aprender
+          </a>{' '}
+          <br />
           <span
             style={{ fontSize: '13px', marginTop: '40px', fontWeight: 'bold' }}
           >
