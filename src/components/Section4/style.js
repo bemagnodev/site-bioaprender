@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Section = styled.section`
   background-color: #e49066;
@@ -22,7 +22,7 @@ export const Container = styled.div`
   flex-direction: row;
   align-items: center;
   width: 100%;
-  padding: 20px 40px;
+  padding: 40px;
   border-radius: 10px;
   margin-top: 120px;
   position: relative;
@@ -40,7 +40,7 @@ export const Title = styled.h1`
   background-color: #0d4f83;
   color: #ffffff;
   font-size: 32px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
   padding: 8px 30px;
@@ -58,7 +58,7 @@ export const Title = styled.h1`
 export const Subtitle = styled.h2`
   color: #6e9485;
   font-size: 32px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   border-radius: 0px 10px 10px 0px;
   width: fit-content;
   margin-bottom: 10px;
@@ -73,26 +73,46 @@ export const Text = styled.p`
   font-size: 22px;
   line-height: 28px;
   width: 90%;
-
+  margin: 8px 0;
   @media (max-width: 768px) {
     width: 100%;
     font-size: 16px;
   }
 `;
 
-export const Image = styled.img`
-  width: 25%;
-  height: auto;
+export const FundamentalImage = styled.img`
+  width: 30%;
+  height: 500px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 25px;
 
   @media (max-width: 1024px) {
-    width: 450px;
+    width: 100%;
     margin: 40px 0;
   }
 
   @media (max-width: 768px) {
     width: 250px;
+    height: auto;
+    margin: 40px 0;
+  }
+`;
+
+export const InfantilImage = styled.img`
+  width: 35%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    margin: 40px 0;
+    height: 450px;
+  }
+
+  @media (max-width: 768px) {
+    width: 250px;
+    height: auto;
     margin: 40px 0;
   }
 `;

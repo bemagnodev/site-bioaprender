@@ -20,11 +20,11 @@ function Section2() {
         <TextContainer>
           <Title>Missão</Title>
           <Text>
-            Proporcionar um espaço onde o aprendizado e o desenvolvimento sejam
-            nutridos em equilíbrio com o meio ambiente e as necessidades do
-            mundo atual. Gerando uma educação transformadora, alinhada ás
-            necessidades do mundo contemporaneo, promovendo o desenvolvimento
-            integral, o pensamento critic e a capacidade de reflexão das
+            Proporcionar um espaço onde a aprendizagem e o desenvolvimento sejam
+            cultivados em equilíbrio com o meio ambiente e as necessidades do
+            mundo atual. Gerando uma educação transformadora, alinhada com as
+            exigências do mundo contemporâneo, estimulando o desenvolvimento
+            integral, o pensamento crítico e a capacidade de reflexão das
             crianças.
           </Text>
         </TextContainer>
@@ -47,8 +47,16 @@ function Section2() {
         <TextContainer>
           <Title>Valores</Title>
           <Text>
-            Promovemos a sustentabilidade, o respeito ao meio ambiente e a
-            construção de uma comunidade vibrante de aprendizado coletivo.
+            Estamos criando raízes em um estilo de vida sustentável, no qual,
+            todos os dias, aprendemos e redescobrimos maneiras de melhorar nossa
+            vida cotidiana, sempre com respeito ao meio ambiente e com o
+            compromisso de construir um aprendizado coletivo. Acreditamos que
+            educar hoje vai além do conhecimento acadêmico; escolher a
+            Bioaprender como escola é adotar um estilo de vida que valoriza a
+            curiosidade, a conexão com a natureza e a pesquisa ativa.
+            Priorizamos a simplicidade, a cultura de respeito coletivo, a
+            cooperação e a transformação, promovendo a harmonia entre o ser
+            humano e o mundo ao seu redor.
           </Text>
         </TextContainer>
         <Image src={valueImage} />

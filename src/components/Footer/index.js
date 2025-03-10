@@ -21,7 +21,9 @@ function Footer() {
           <strong>WhatsApp:</strong> (85) 98768-5299 <br />
           <strong>Email:</strong> bioaprender@outlook.com <br />
           <strong>Instagram:</strong> @bio_aprender <br />
-          <span style={{ fontSize: '10px', marginTop: '20px' }}>
+          <span
+            style={{ fontSize: '13px', marginTop: '40px', fontWeight: 'bold' }}
+          >
             © 2025 Bioaprender. Todos os direitos reservados.
           </span>
         </Text>
