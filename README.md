@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Landing Page Responsiva - Bio Aprender
+![Status](https://img.shields.io/badge/status-finalizado-brightgreen)
+![Deploy](https://img.shields.io/badge/deploy-Vercel-black?style=flat&logo=vercel)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### Acesso
+**Site no ar:** [bioaprender.com.br](https://bioaprender.com.br/)
 
-In the project directory, you can run:
+### Visão Geral
+Landing page institucional desenvolvida para a escola Bio Aprender, marcando a primeira presença online da instituição. O objetivo principal do projeto era apresentar a missão e a metodologia da escola, servindo como um canal direto para que novos pais pudessem entrar em contato via WhatsApp.
 
-### `yarn start`
+### Funcionalidades Principais
+* **Design Responsivo:** Layout 100% adaptável para desktops, tablets e celulares.
+* **Seções Informativas:** Apresentação clara da metodologia, estrutura de turmas e galeria de fotos.
+* **Call-to-Action (CTA):** Botões de contato direto para o WhatsApp, facilitando a captação de novos alunos.
+* **Componentização:** Estrutura totalmente componentizada em React para facilitar a manutenção.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tecnologias Utilizadas
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Desafios e Aprendizados
+O principal desafio deste projeto foi traduzir o design e a identidade visual definidos pelo cliente em um layout funcional e totalmente responsivo.
 
-### `yarn test`
+Foi uma excelente oportunidade para aprimorar minhas habilidades em **comunicação com o cliente**, garantindo que os requisitos fossem atendidos, e para aprofundar meus conhecimentos em **Styled Components** na criação de uma interface adaptável a múltiplos dispositivos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎬 Demonstração em Vídeo
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Demonstração do Projeto](./bioaprender-demo.gif)
